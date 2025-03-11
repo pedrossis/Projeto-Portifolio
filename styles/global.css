@@ -20,7 +20,7 @@
 
     --font-family-asap: "Asap", sans-serif;
     --title-lg: 700 56px/120% var(--font-family-asap);
-    --title-mg: 700 24px/120% var(--font-family-asap);
+    --title-md: 700 24px/120% var(--font-family-asap);
     --title-sm: 700 16px/120% var(--font-family-asap);
 
     --font-family-inconsolata: "Inconsolata", monospace;
@@ -47,13 +47,22 @@ body {
 
 #intro {
     width: 100vw;
-    height: 750px;
     background: url(../assets/image/Background_Intro.png) no-repeat center/cover;
+    padding-block: 120px 57px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 94px;
 }
 
 #projects {
     width: 100vw;
     height: 917px;
+    padding-block: 120px;
+    margin-inline: auto;
+    display: grid;
+    justify-content: center;
+    border: 1px solid red;
+    row-gap: 56px;
 }
 
 #services {
