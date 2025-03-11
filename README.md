@@ -2,7 +2,7 @@
 
 ### Desafio de um projeto portifólio desenvolvido durante as aulas da Rocketseat
 
-![Print do projeto](image.png)
+![Print do projeto](assets/image/image.png)
 
 ## Tecnologias
 
