@@ -43,8 +43,8 @@ body {
     border: 1.5px solid var(--gray-400);
 }
 
-.social-button:hover {
-    border: 1.5 solid var(--color-blue);
+#contact .social-button:hover {
+    border: 1px solid var(--color-blue);
 }
 
 #intro {
