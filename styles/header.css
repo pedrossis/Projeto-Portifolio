@@ -86,3 +86,14 @@ p:first-of-type {
     display: grid;
     row-gap: 8px;
 }
+
+#contact > header {
+    display: grid;
+    row-gap: 8px;
+    text-align: center;
+}
+
+#contact p {
+    font: var(--text-md);
+    color: var(--gray-500);
+}

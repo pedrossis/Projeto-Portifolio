@@ -6,6 +6,10 @@
     color: var(--color-red);
 }
 
+.color-purple {
+    color: var(--color-purple);
+}
+
 .font-title-md {
     font: var(--title-md);
 }
