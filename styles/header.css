@@ -78,13 +78,11 @@ p:first-of-type {
     row-gap: 8px;
 }
 
-#projects h2 {
-    font: var(--subtitle);
-    color: var(--color-red);
+#services > header {
+    width: 355px;
+    height: 61px;
+    margin-inline: auto;
+    text-align: center;
+    display: grid;
+    row-gap: 8px;
 }
-
-#projects h1 {
-    font: var(--title-md);
-    color: var(--gray-600);
-}
-

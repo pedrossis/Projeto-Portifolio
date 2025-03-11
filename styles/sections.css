@@ -24,3 +24,45 @@
 .caret {
     text-align: center;
 }
+
+.cards {
+    max-width: 1040px;
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.project-card {
+    width: 330px;
+    height: 280px;
+    border-radius: 12px;
+    background-color: var(--gray-300);
+    padding: 12px 12px 17px;
+    display: grid;
+    row-gap: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.project-card img {
+    width: 306px;
+    border-radius: 8px;
+}
+
+.card-text {
+    max-width: 306px;
+    padding: 4px;
+    display: grid;
+    row-gap: 8px;
+}
+
+.card-text h3 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+}
+
+.card-text p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+}

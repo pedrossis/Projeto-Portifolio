@@ -34,11 +34,13 @@
 body {
     font: var(--title-sm);
     color: var(--gray-500);
-    background-color: var(--gray-300);
+    background-color: var(--gray-200);
+    width: 100%;
+    height: 100vh;
 }
 
-.card:hover {
-    border: 1.5 solid var(--gray-400);
+#projects .project-card:hover {
+    border: 1.5px solid var(--gray-400);
 }
 
 .social-button:hover {
@@ -46,7 +48,7 @@ body {
 }
 
 #intro {
-    width: 100vw;
+    width: 100%;
     background: url(../assets/image/Background_Intro.png) no-repeat center/cover;
     padding-block: 120px 57px;
     display: flex;
@@ -55,23 +57,27 @@ body {
 }
 
 #projects {
-    width: 100vw;
+    width: 100%;
     height: 917px;
-    padding-block: 120px;
+    padding-inline: 120px;
+    padding-block: 72px 144px;
     margin-inline: auto;
     display: grid;
     justify-content: center;
-    border: 1px solid red;
     row-gap: 56px;
 }
 
 #services {
-    width: 100vw;
+    width: 100%;
     height: 480px;
-    background-color: var(--gray-200);
+    background-color: var(--gray-100);
+    padding-block: 88px 120px;
+    padding-inline: 120px;
+    display: grid;
+    row-gap: 56px;
 }
 
 #contact {
-    width: 100vw;
+    width: 100%;
     height: 787px;
 }
