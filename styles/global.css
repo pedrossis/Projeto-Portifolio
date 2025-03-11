@@ -19,20 +19,21 @@
     --gray-600: #E2E4E9;
 
     --font-family-asap: "Asap", sans-serif;
-    --title-lg: 700 56px/120% var(font-family-asap);
-    --title-mg: 700 24px/120% var(font-family-asap);
-    --title-sm: 700 16px/120% var(font-family-asap);
+    --title-lg: 700 56px/120% var(--font-family-asap);
+    --title-mg: 700 24px/120% var(--font-family-asap);
+    --title-sm: 700 16px/120% var(--font-family-asap);
 
     --font-family-inconsolata: "Inconsolata", monospace;
-    --subtitle: 500 20px/120% var(font-family-inconsolata);
+    --subtitle: 400 20px/120% var(--font-family-inconsolata);
 
     --font-family-maven: "Maven Pro", sans-serif;
-    --text-md: 500 16px/140% var(font-family-maven);
-    --text-sm: 500 14px/140% var(font-family-maven);
+    --text-md: 400 16px/140% var(--font-family-maven);
+    --text-sm: 400 14px/140% var(--font-family-maven);
 }
 
 body {
-    max-width: 1366px;
+    font: var(--title-sm);
+    color: var(--gray-500);
     background-color: var(--gray-300);
 }
 
