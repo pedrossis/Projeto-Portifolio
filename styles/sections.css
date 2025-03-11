@@ -42,7 +42,7 @@
     padding: 12px 12px 17px;
     display: grid;
     row-gap: 20px;
-    transition: all .2s ease-in-out;
+    transition: border .2s ease-in-out;
 }
 
 .project-card img {
@@ -65,4 +65,35 @@
 .card-text p {
     font: var(--text-sm);
     color: var(--gray-500);
+}
+
+.services {
+    max-width: 888px;
+    margin-inline: auto;
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-card {
+    width: 280px;
+    padding: 20px;
+    display: grid;
+    row-gap: 20px;
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+}
+
+.services-card img {
+    margin: auto;
+}
+
+.services-card header {
+    display: grid;
+    row-gap: 8px;
+    width: 240px;
+    text-align: center;
+    align-items: start;
+    justify-content: center;
 }
